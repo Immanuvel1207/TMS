@@ -1,0 +1,44 @@
+.sidebar {
+  width: 250px;
+  background-color: #1a365d;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 10px;
+  overflow-y: auto;
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  margin: 10px 0;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
+
+.nav-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.submenu {
+  list-style: none;
+  padding-left: 20px;
+  display: none;
+}
+
+.has-submenu:hover > .submenu {
+  display: block;
+}
+

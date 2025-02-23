@@ -1,0 +1,38 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #e6f0ff;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1;
+  margin-left: 250px; /* This should match the width of your sidebar */
+}
+
+.blog-sidebar {
+  width: 200px;
+  background-color: #99b9ff;
+  padding: 20px;
+}
+
+.blog-trigger {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.blog-trigger:hover {
+  text-decoration: underline;
+}
+

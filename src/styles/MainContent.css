@@ -1,0 +1,16 @@
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin: 15px;
+  overflow-y: auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #1a365d;
+  margin-bottom: 20px;
+}
+
